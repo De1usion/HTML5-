@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/detail/main",
+    "pages/booksList/main",
+    "pages/personal/main"
+
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#02a774",
+    "navigationBarTitleText": "电影小灵通",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/main",
+        "text": "电影列表",
+        "iconPath": "/static/imgs/tabs/book.png",
+        "selectedIconPath": "/static/imgs/tabs/book-active.png"
+      },
+      {
+        "pagePath": "pages/personal/main",
+        "text": "个人中心",
+        "iconPath": "/static/imgs/tabs/me.png",
+        "selectedIconPath": "/static/imgs/tabs/me-active.png"
+      },
+      {
+        "pagePath": "pages/clock/clock",
+        "text": "自律时钟",
+        "iconPath": "/static/imgs/clock/time_not_start.png",
+        "selectedIconPath": "/static/imgs/clock/time_start.png"
+      }
+    ]
+  }
+}
